@@ -1,1 +1,133 @@
-/*  your css code here. If applicable */
+/* Basic styles for the body */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+}
+
+.nav-right a {
+    margin-right: 20px;
+    color: #5f6368;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-right a:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    padding: 5px 15px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: #155abc;
+}
+
+/* Main container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.logo {
+    margin-top: 50px;
+    width: 272px;
+}
+
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 24px;
+    font-size: 16px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #e8e8e8;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.footer-left, .footer-right {
+	display: flex;
+	gap: 1rem;
+	padding: 2px 20px;
+}
+
+.footer-links a {
+	text-decoration: none;
+    cursor: pointer;
+	color: #5F6368;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
