@@ -116,7 +116,7 @@ button:hover {
     font-size: 14px;
 }
 
-.footer-left, .footer-right {
+.l_ftr, .r_ftr {
 	display: flex;
 	gap: 1rem;
 	padding: 2px 20px;
